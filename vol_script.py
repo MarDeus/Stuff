@@ -1,7 +1,7 @@
 import os, os.path
 
 def parse():
-	workingD = """E:\Cases\
+	workingD = """[insert filepath]
 """
 	Files = []
 	os.chdir(workingD)
@@ -22,4 +22,4 @@ def get_profile():
 get_profile()
 
 
-#py -2 C:\users\emma\volatility-master\volatility-master\vol.py imageinfo -f E:\Cases\a.dmp
+#py -2 vol.py imageinfo -f [filepath]
