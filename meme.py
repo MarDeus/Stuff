@@ -1,4 +1,5 @@
 import os
+#purely for testing
 
 meme = os.system("type profiles.txt | findstr Suggested")
 print(meme)
